@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Number Oracle 🔮</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="oracle-box">
+    <h1>🔮 Welcome to the Number Oracle 🔮</h1>
+    <p>{{ message }}</p>
+    <form method="post">
+      <input type="number" name="guess" required placeholder="Enter your guess">
+      <button type="submit">Divine the Number</button>
+    </form>
+  </div>
+</body>
+</html>

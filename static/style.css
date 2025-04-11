@@ -1,0 +1,23 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #111;
+    color: #eee;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .oracle-box {
+    background: #222;
+    padding: 40px;
+    border-radius: 15px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 0 0 20px #7700ff;
+  }
+  
+  input, button {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
